@@ -1,0 +1,6 @@
+# Generated files
+.sentry-native
+
+# Built files
+build/
+

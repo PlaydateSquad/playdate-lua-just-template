@@ -1,0 +1,6 @@
+name=My Playdate Game
+author=You
+description=Something that describes this game
+bundleID=com.bundle.some-id
+version=1.0
+buildNumber=1

@@ -1,0 +1,4 @@
+{
+    "playdate-debug.outputPath": "build/",
+    "playdate-debug.productName": "MyPlaydateGame",
+}

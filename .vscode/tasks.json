@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "problemMatcher": ["$pdc-lua", "$pdc-external"],
+            "label": "Playdate: Build",
+            "command": "just",
+            "args": ["build"]
+        },
+        {
+            "problemMatcher": ["$pdc-external"],
+            "label": "Playdate: Build and Run",
+            "command": "just",
+            "args": ["run"]
+        }
+    ]
+}

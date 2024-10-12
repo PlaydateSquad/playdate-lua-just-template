@@ -34,6 +34,24 @@ the `workspace.library` portion of `.luarc.json`:
 
 For more information, refer to https://github.com/notpeter/playdate-luacats.
 
+### Debugging with VS Code
+
+This template has also been configured to work with the
+vscode-playdate-debug extension for VS Code, along with a couple of other
+tweaks to make the VS Code experience work.
+
+Before utilizing the debugging facilities, be sure to change the product
+name in `.vscode/settings.json` to match `product` in your justfile:
+
+```json
+{
+    "playdate-debug.outputPath": "build/",
+    "playdate-debug.productName": "ReplaceThisWithProduct",
+}.
+```
+
+For more information, refer to https://github.com/midouest/vscode-playdate-debug.
+
 ### Just Recipes
 
 This template defines the following recipes:

@@ -47,7 +47,7 @@ name in `.vscode/settings.json` to match `product` in your justfile:
 {
     "playdate-debug.outputPath": "build/",
     "playdate-debug.productName": "ReplaceThisWithProduct",
-}.
+}
 ```
 
 For more information, refer to https://github.com/midouest/vscode-playdate-debug.
